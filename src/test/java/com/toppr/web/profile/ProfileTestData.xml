@@ -1,0 +1,17 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../main/resources/TestData.xsd">
+
+    <testData name="noPasswordLogin">automation_user1458190840333@toppr.com</testData>
+    <testData name="setPasswordMessage">Protect your account with a password. Set password now.</testData>
+    <testData name="nameErrorMessage">Please enter your name</testData>
+    <testData name="saveChangesErrorMessage">Failed to update profile settings</testData>
+    <testData name="saveChangesSuccessMessage">Your profile has been updated successfuly.</testData>
+    <testData name="newName">Automation User</testData>
+    <testData name="validEmail">automation_iit@toppr.com</testData>
+    <testData name="validPassword">tooprqa</testData>
+    <testData name="unlockUserLogin">2016jeefullpackage@toppr.com</testData>
+    <testData name="unlockUserPassword">toppr@1947</testData>
+    <testData name="verifyPhoneNumberMessage">Click here to verify your phone number</testData>
+    <testData name="iitFirstSubject">PHYSICS</testData>
+    <testData name="iitSecondSubject">CHEMISTRY</testData>
+    <testData name="iitThirdSubject">MATHS</testData>
+</data>

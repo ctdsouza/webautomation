@@ -1,0 +1,12 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../main/resources/TestData.xsd">
+
+    <testData name="emailText">automation_user</testData>
+    <testData name="phoneNumber">7798477959</testData>
+    <testData name="setPasswordMessage">Protect your account with a password. Set password now.</testData>
+    <testData name="validEmail">automation_iit@toppr.com</testData>
+    <testData name="validPassword">tooprqa</testData>
+    <testData name="iitFirstSubject">Physics</testData>
+    <testData name="iitSecondSubject">Chemistry</testData>
+    <testData name="iitThirdSubject">Maths</testData>
+
+</data>

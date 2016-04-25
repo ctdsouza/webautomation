@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Upgrade Test Suite" verbose="1" annotations="JDK">
+    <test name="Upgrade screen Tests">
+        <classes>
+            <class name="com.toppr.web.upgrade.UpgradeTest"/>
+        </classes>
+    </test>
+</suite>

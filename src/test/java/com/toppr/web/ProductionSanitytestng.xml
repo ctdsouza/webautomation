@@ -1,0 +1,90 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Website Production Sanity Test Suite" >
+    <test name="Login productionsanity Tests">
+        <groups>
+            <run>
+                <include name="productionsanity"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.toppr.web.login.LoginTest" />
+        </classes>
+    </test>
+
+    <test name="Signup productionsanity Tests">
+        <groups>
+            <run>
+                <include name="productionsanity"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.toppr.web.signUp.SignUpTest"/>
+        </classes>
+    </test>
+
+    <test name="Profile productionsanity Tests">
+        <groups>
+            <run>
+                <include name="productionsanity"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.toppr.web.profile.ProfileTest" />
+        </classes>
+    </test>
+
+    <test name="Upgrade productionsanity Tests">
+        <groups>
+            <run>
+                <include name="productionsanity"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.toppr.web.upgrade.UpgradeTest"/>
+        </classes>
+    </test>
+
+    <test name="Setting productionsanity Tests">
+        <groups>
+            <run>
+                <include name="productionsanity"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.toppr.web.settings.SettingsTest"/>
+        </classes>
+    </test>
+
+    <test name="Testseries productionsanity Tests">
+        <groups>
+            <run>
+                <include name="productionsanity"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.toppr.web.testSeries.TestSeriesTest" />
+        </classes>
+    </test>
+
+    <test name="DOC productionsanity Tests">
+        <groups>
+            <run>
+                <include name="productionsanity"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.toppr.web.doc.DOCTest"/>
+        </classes>
+    </test>
+
+    <test name="Assessment productionsanity Tests">
+        <groups>
+            <run>
+                <include name="productionsanity"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.toppr.web.assessment.AssessmentTest"/>
+        </classes>
+    </test>
+</suite>

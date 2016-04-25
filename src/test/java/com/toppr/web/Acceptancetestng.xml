@@ -1,0 +1,90 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Website Acceptance Test Suite" >
+    <test name="Login Acceptance Tests">
+        <groups>
+            <run>
+                <include name="acceptance"/>
+            </run>
+        </groups>
+        <classes>
+        <class name="com.toppr.web.login.LoginTest" />
+        </classes>
+    </test>
+
+    <test name="Signup Acceptance Tests">
+        <groups>
+            <run>
+                <include name="acceptance"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.toppr.web.signUp.SignUpTest"/>
+        </classes>
+    </test>
+
+    <test name="Profile Acceptance Tests">
+        <groups>
+            <run>
+                <include name="acceptance"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.toppr.web.profile.ProfileTest" />
+        </classes>
+    </test>
+
+    <test name="Upgrade Acceptance Tests">
+        <groups>
+            <run>
+                <include name="acceptance"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.toppr.web.upgrade.UpgradeTest"/>
+        </classes>
+    </test>
+
+    <test name="Setting Acceptance Tests">
+        <groups>
+            <run>
+                <include name="acceptance"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.toppr.web.settings.SettingsTest"/>
+        </classes>
+    </test>
+
+    <test name="Testseries Acceptance Tests">
+        <groups>
+            <run>
+                <include name="acceptance"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.toppr.web.testSeries.TestSeriesTest" />
+        </classes>
+    </test>
+
+    <test name="DOC Acceptance Tests">
+        <groups>
+            <run>
+                <include name="acceptance"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.toppr.web.doc.DOCTest"/>
+        </classes>
+    </test>
+
+    <test name="Assessment Acceptance Tests">
+        <groups>
+            <run>
+                <include name="acceptance"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.toppr.web.assessment.AssessmentTest"/>
+        </classes>
+    </test>
+</suite>

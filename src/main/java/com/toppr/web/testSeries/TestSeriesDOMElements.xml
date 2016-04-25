@@ -1,0 +1,263 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../resources/DOMElements.xsd">
+
+    <element name="testSeriesOnLHS">
+        <class>testSeries</class>
+    </element>
+
+    <element name="testSeriesTitle">
+        <class>pHeader_content</class>
+    </element>
+
+    <element name="liveNowText">
+        <class>ts_infoLabel</class>
+    </element>
+
+    <element name="testList">
+        <class>pb-30</class>
+    </element>
+
+<!--
+    <element name="pastTests">
+        <class></class>
+    </element>
+
+    <element name="upcomingTests">
+        <xpath>.//*[@id='page_content_wrapper']/div/div[2]/div[1]/div[6]</xpath>
+    </element>
+-->
+
+    <element name="pastTest">
+        <class>ts_calDate</class>
+    </element>
+
+    <element name="howItWorksOption">
+        <class>ts_howItWorks_featureContainer</class>
+    </element>
+
+    <element name="startTestButton">
+        <xpath>.//*[@id='page_content_wrapper']/div/div[2]/div[1]/div[2]/div[2]/div[3]/div[1]/button</xpath>
+    </element>
+
+    <element name="startPastTest">
+        <linkText>Start test</linkText>
+    </element>
+
+    <element name="startTestOnConfirm">
+        <class>button-green</class>
+    </element>
+
+    <element name="testName">
+        <class>testTool_topBar_title</class>
+    </element>
+
+    <element name="countdownTimer">
+        <class>testTool_topBar_timer_val</class>
+    </element>
+
+    <element name="stopTestButton">
+        <class>testTool_topBar_stateBtn</class>
+    </element>
+
+    <element name="syllabusSubjects">
+        <class>tsTest_syllabus_title</class>
+    </element>
+
+    <element name="testDates">
+        <class>ts_calDate_content</class>
+    </element>
+
+    <element name="answerOptionA">
+        <class>ques_option</class>
+        <class>apply-mathjax</class>
+        <class>js-ques-list-option-item</class>
+    </element>
+    
+    <element name="skipButton">
+        <class>testTool_btmBar</class>
+    </element>
+
+    <element name="saveAndNextButton">
+        <class>testTool_btmBar</class>
+    </element>
+
+    <element name="finishTestPromptHeader">
+        <class>mdTestPause</class>
+    </element>
+    
+    <element name="testParametes">
+        <class>mdTestPause_countsList_item</class>
+    </element>
+
+    <element name="pasuseTestPromtTimer">
+        <class>mdTestPause_timer_val</class>
+    </element>
+
+    <element name="resumeTestButton">
+        <class>js-btn-resume</class>
+        <linkText>Resume Test</linkText>
+    </element>
+    
+    <element name="submitTestButton">
+        <class>js-btn-submit</class>
+        <linkText>Submit Test</linkText>
+    </element>
+    
+    <element name="reportStats">
+        <class>tsTest_stats</class>
+    </element>
+
+    <element name="scoreDistribution">
+        <class>report_scoreDist</class>
+    </element>
+
+    <element name="detailedReport">
+        <class>report_detailed</class>
+    </element>
+
+    <element name="chapterwiseReport">
+        <class>report_cWise_dropdown</class>
+    </element>
+
+    <element name="chapterwiseReportItems">
+        <class>report_cWise_cItem</class>
+    </element>
+
+    <element name="accuracyGraph">
+        <class>report_plots</class>
+    </element>
+
+    <element name="viewReportButton">
+        <class>btnViewMoreContent</class>
+        <linkText>View Report</linkText>
+    </element>
+
+    <element name="viewFullReport">
+        <linkText>VIEW FULL REPORT</linkText>
+    </element>
+
+    <element name="quickInfo">
+        <class>pCol</class>
+    </element>
+
+    <element name="liveTestButton">
+        <class>ts_infoLabel</class>
+    </element>
+
+    <element name="liveTestStartButton">
+        <xpath>.//*[@id='page_content_wrapper']/div/div[2]/div[1]/div[2]/div[2]/div[3]/div[1]/button</xpath>
+    </element>
+
+    <element name="liveTestDetails">
+        <class>ts_firstTest_details</class>
+    </element>
+    
+    <element name="liveTestName">
+        <class>phn-tab-hide</class>
+    </element>
+
+    <element name="testDetails">
+        <class>tsTest_detailsWrapper</class>
+    </element>
+
+    <element name="upgradeTitle">
+        <class>mdUpgrade_title</class>
+    </element>
+    
+    <element name="upgradeDescription">
+        <class>mdUpgrade_desc</class>
+    </element>
+
+    <element name="upgradeDescriptionBox">
+        <class>mdUpgrade_bordered</class>
+    </element>
+
+    <element name="upgradeNowButton">
+        <linkText>Upgrade Now</linkText>
+    </element>
+
+    <element name="overviewTab">
+        <linkText>OVERVIEW</linkText>
+    </element>
+
+    <element name="upcomingTest">
+        <css>.ts_calDate_head.ts_calDate_head-bgBlue</css>
+    </element>
+    
+    <element name="upcomingTestSyllabus">
+        <class>tsTest_syllabus_title</class>
+    </element>
+    
+    <element name="upcomingTestStartTime">
+        <class>ac</class>
+    </element>
+    
+    <element name="upcomingTestName">
+        <class>phn-hide</class>
+    </element>
+    
+    <element name="upcomingTestDuration">
+        <class>mdTsDetails_details</class>
+    </element>
+
+    <element name="upcomingTestDate">
+        <class>mdTsDetails_calDate_content</class>
+    </element>
+
+    <element name="attemptedTestTick">
+        <class>ts_calDate_attempted-left</class>
+    </element>
+
+    <element name="attemptedTestName">
+        <class>phn-hide</class>
+    </element>
+    
+    <element name="attemptedTestDate">
+        <class>mdTsDetails_calDate</class>
+    </element>
+    
+    <element name="attemptedTestViewReportButton">
+        <linkText>View Report</linkText>
+    </element>
+
+    <element name="attemptedTestCloseButton">
+        <class>md_btn</class>
+    </element>
+
+    <element name="attemptedTestRightSideTick">
+        <class>mdTsDetails_calDate_attempted-right</class>
+    </element>
+
+    <element name="answerKeyTab">
+        <linkText>ANSWER KEY</linkText>
+    </element>
+    
+    <element name="answerKeySubjectName">
+        <xpath>.//*[@id='answerkey_questions_list']/h2</xpath>
+    </element>
+    
+    <element name="answerKeyQuestionSolution">
+        <class>ques_content</class>
+    </element>
+    
+    <element name="askADoubt">
+        <class>ask-doubt</class>
+    </element>
+
+ <!--
+    <element name="hintOption">
+        <xpath>.//*[@id='answerkey_questions_list']/div[1]/div[3]/div[1]/div[4]/a[1]</xpath>
+    </element>
+ -->
+
+    <element name="solutionOption">
+        <linkText>Solution</linkText>
+    </element>
+
+    <element name="chemistrySubjectFilter">
+        <class>filters_item_field</class>
+    </element>
+
+    <element name="testDay">
+        <class>ts_calDate_head</class>
+    </element>
+</elements>

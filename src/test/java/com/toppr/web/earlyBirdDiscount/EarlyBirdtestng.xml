@@ -1,0 +1,7 @@
+<suite name="Early Bird Discount Test Suite" verbose="1" annotations="JDK">
+    <test name="Early Bird Discount Test Suite" preserve-order="true">
+        <classes>
+            <class name="com.toppr.web.earlyBirdDiscount.EarlyBirdDiscountTest"/>
+        </classes>
+    </test>
+</suite>

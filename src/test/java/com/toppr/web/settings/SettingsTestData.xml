@@ -1,0 +1,9 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../main/resources/TestData.xsd">
+
+    <testData name="validEmail">automation_iit@toppr.com</testData>
+    <testData name="validPassword">tooprqa</testData>
+    <testData name="iitFirstSubject">PHYSICS</testData>
+    <testData name="iitSecondSubject">CHEMISTRY</testData>
+    <testData name="iitThirdSubject">MATHS</testData>
+    <testData name="updatedName">updated</testData>
+</data>

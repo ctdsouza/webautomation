@@ -1,0 +1,32 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../resources/DOMElements.xsd">
+
+    <element name="freemiumMessage">
+        <class>doc_subjectList_subHeading</class>
+    </element>
+
+    <element name="askADoubtButton">
+        <xpath>.//*[@id='content']/div/div/a</xpath>
+        <class>button-green</class>
+    </element>
+
+    <element name="docSubjectList">
+        <class>doc_subject</class>
+    </element>
+    
+    <element name="startPhysicsChat">
+        <xpath>.//*[@id='docChatlet']/div/div[2]/div[3]</xpath>
+        <class>doc_subject-physics</class>
+    </element>
+
+    <element name="docTextBox">
+        <class>doc_action_textarea</class>
+    </element>
+
+    <element name="sendButton">
+        <class>doc_chatBox_btnSend</class>
+    </element>
+
+    <element name="sentMessageText">
+        <class>doc_chats_msg</class>
+    </element>
+</elements>

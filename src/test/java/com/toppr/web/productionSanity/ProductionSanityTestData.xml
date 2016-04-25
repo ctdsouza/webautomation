@@ -1,0 +1,27 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../main/resources/TestData.xsd">
+
+    <testData name="emailText">automation_user</testData>
+    <testData name="phoneNumber">7798477959</testData>
+    <testData name="setPasswordMessage">Protect your account with a password. Set password now.</testData>
+    <testData name="validEmail">automation_iit@toppr.com</testData>
+    <testData name="validPassword">tooprqa</testData>
+    <testData name="iitFirstSubject">Physics</testData>
+    <testData name="iitSecondSubject">Chemistry</testData>
+    <testData name="iitThirdSubject">Maths</testData>
+    <testData name="preMedicalLogin">automation_bio@toppr.com</testData>
+    <testData name="premedicalPassword">tooprqa</testData>
+    <testData name="preMedicalFirstSubject">Physics</testData>
+    <testData name="preMedicalSecondSubject">Chemistry</testData>
+    <testData name="preMedicalThirdSubject">Biology</testData>
+    <testData name="foundationLogin">automation_fund@toppr.com</testData>
+    <testData name="foundationPassword">tooprqa</testData>
+    <testData name="foundationFirstSubject">Physics</testData>
+    <testData name="foundationSecondSubject">Chemistry</testData>
+    <testData name="foundationThirdSubject">Maths</testData>
+    <testData name="foundationForthSubject">Biology</testData>
+    <testData name="foundationFifthSubject">Mental Aptitude</testData>
+    <testData name="fbLoginEmail">qa.toppr@gmail.com</testData>
+    <testData name="fbLoginPassword">toppr.qa</testData>
+    <testData name="googleLoginEmail">toppr.qa@gmail.com</testData>
+    <testData name="googleLoginPassword">qa.toppr</testData>
+</data>

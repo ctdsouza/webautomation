@@ -1,0 +1,26 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../resources/DOMElements.xsd">
+
+    <element name="optionA">
+        <class>ques_option_label</class>
+    </element>
+
+    <element name="skipButton">
+        <class>testTool_btmBar_actionBtn</class>
+    </element>
+    
+    <element name="submitButton">
+        <class>testTool_btmBar_actionBtn</class>
+    </element>
+
+    <element name="pauseButton">
+        <class>testTool_topBar_stateBtn</class>
+    </element>
+    
+    <element name="timer">
+        <class>testTool_topBar_timer</class>
+    </element>
+
+    <element name="testPasuedPopUp">
+        <class>mdTestPause</class>
+    </element>
+</elements>

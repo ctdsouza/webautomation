@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Website Acceptance Test Suite" parallel="tests" thread-count="2">
+    <test name="Acceptance Tests - Login" >
+        <parameter name="browser" value="firefox" />
+        <classes>
+            <class name="com.toppr.web.login.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Acceptance Tests - Signup" >
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="com.toppr.web.signUp.SignUpTest"/>
+        </classes>
+    </test>
+</suite>

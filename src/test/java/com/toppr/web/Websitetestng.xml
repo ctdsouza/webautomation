@@ -1,0 +1,53 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Toppr Website Test Suite">
+
+    <test name="Login test suite" preserve-order="true">
+        <classes>
+            <class name="com.toppr.web.login.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="SignUp test suite" preserve-order="true">
+        <classes>
+            <class name="com.toppr.web.signUp.SignUpTest" />
+        </classes>
+    </test>
+
+    <test name="Profile test suite" preserve-order="true">
+        <classes>
+            <class name="com.toppr.web.profile.ProfileTest" />
+        </classes>
+    </test>
+
+    <test name="Assessment test suite" preserve-order="true">
+        <classes>
+            <class name="com.toppr.web.assessment.AssessmentTest" />
+        </classes>
+    </test>
+
+    <!--
+    <test name="DOC test suite" preserve-order="true">
+        <classes>
+            <class name="com.toppr.web.doc.DOCTest" />
+        </classes>
+    </test>
+-->
+    <test name="Setting test suite" preserve-order="true">
+        <classes>
+            <class name="com.toppr.web.settings.SettingsTest" />
+        </classes>
+    </test>
+
+    <test name="Upgrade test suite" preserve-order="true">
+        <classes>
+            <class name="com.toppr.web.upgrade.UpgradeTest" />
+        </classes>
+    </test>
+
+    <test name="Testseries test suite" preserve-order="true">
+        <classes>
+            <class name="com.toppr.web.testSeries.TestSeriesTest" />
+        </classes>
+    </test>
+
+</suite>

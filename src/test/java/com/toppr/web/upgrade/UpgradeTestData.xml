@@ -1,0 +1,39 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../main/resources/TestData.xsd">
+
+    <testData name="validEmail">automation_iit@toppr.com</testData>
+    <testData name="validPassword">tooprqa</testData>
+    <testData name="iitFirstSubject">PHYSICS</testData>
+    <testData name="iitSecondSubject">CHEMISTRY</testData>
+    <testData name="iitThirdSubject">MATHS</testData>
+    <testData name="foundationLogin">automation_fund@toppr.com</testData>
+    <testData name="foundationPassword">tooprqa</testData>
+    <testData name="foundationFirstSubject">PHYSICS</testData>
+    <testData name="foundationSecondSubject">CHEMISTRY</testData>
+    <testData name="foundationThirdSubject">MATHS</testData>
+    <testData name="foundationForthSubject">BIOLOGY</testData>
+    <testData name="foundationFifthSubject">MENTAL APTITUDE</testData>
+    <testData name="preMedicalLogin">automation_bio@toppr.com</testData>
+    <testData name="premedicalPassword">tooprqa</testData>
+    <testData name="preMedicalFirstSubject">PHYSICS</testData>
+    <testData name="preMedicalSecondSubject">CHEMISTRY</testData>
+    <testData name="preMedicalThirdSubject">BIOLOGY</testData>
+    <testData name="packageName">ADVANCED</testData>
+    <testData name="packageValidity">2016</testData>
+    <testData name="packagePrice">6,900</testData>
+    <testData name="billingUserName">Automation</testData>
+    <testData name="billingEmail">automation_iit@toppr.com</testData>
+    <testData name="billingPhone">4321567891</testData>
+    <testData name="foundationPackageName">CLASS X &amp; IIT JEE</testData>
+    <testData name="foundationPackageValidity">2019</testData>
+    <testData name="foundationPackagePrice">7,900</testData>
+    <testData name="foundationBillingUserName">Automation</testData>
+    <testData name="foundationBillingEmail">automation_fund@toppr.com</testData>
+    <testData name="foundationBillingPhone">4321567893</testData>
+    <testData name="ultimateUserLogin">ultimatepackage_android@toppr.com</testData>
+    <testData name="ultimateUserPassword">tooprqa</testData>
+    <testData name="jee2017LitePackageSellPrice">3,900</testData>
+    <testData name="jee2017BasicPackageSellPrice">5,900</testData>
+    <testData name="jee2017AdvancedPackageSellPrice">6,900</testData>
+    <testData name="jee2017MasterPackageSellPrice">16,990</testData>
+    <testData name="jee2017UltimatePackageSellPrice">16,900</testData>
+</data>

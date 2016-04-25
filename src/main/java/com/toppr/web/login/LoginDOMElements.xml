@@ -1,0 +1,90 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../resources/DOMElements.xsd">
+
+    <element name="emailTextBox">
+        <class>mdAuth_inputGroup_input</class>
+        <name>email</name>
+    </element>
+
+    <element name="continueButton">
+        <class>mdAuth_centerBtn</class>
+    </element>
+
+    <element name="loginFacebookOption">
+        <class>mdAuth_btnSocial-fb</class>
+    </element>
+
+    <element name="loginGoogleOption">
+        <class>mdAuth_btnSocial-gp</class>
+    </element>
+
+    <element name="screenTitle">
+        <class>color-black-2</class>
+    </element>
+
+    <element name="closeOption">
+        <class>md_btnClose</class>
+    </element>
+
+    <element name="passwordTestBox">
+        <xpath>//input[@name='password']</xpath>
+        <name>password</name>
+        <class>inputText</class>
+    </element>
+
+    <element name="forgotPassword">
+        <linkText>Reset your password</linkText>
+        <xpath>.//*[@id='md_auth_email_login_form']/div/a</xpath>
+    </element>
+
+    <element name="loginButton">
+        <class>mdAuth_centerBtn</class>
+        <xpath>//div[2]/div/form/div[2]/button</xpath>
+    </element>
+
+    <element name="userEmail">
+        <class>mdAuth_uThumb</class>
+    </element>
+
+    <element name="emailError">
+        <class>mdAuth_inputGroup_error</class>
+        <xpath>.//*[@id='email-error']</xpath>
+    </element>
+
+    <element name="passwordError">
+        <class>mdAuth_inputGroup_error</class>
+        <xpath>//div[2]/div/form/div/label[2]</xpath>
+    </element>
+
+    <element name="fbEmail">
+        <xpath>.//*[@id='email']</xpath>
+    </element>
+    
+    <element name="fbPassword">
+        <xpath>.//*[@id='pass']</xpath>
+    </element>
+
+    <element name="fbLoginButton">
+        <xpath>.//*[@id='loginbutton']</xpath>
+    </element>
+
+    <element name="googleEmail">
+        <xpath>.//*[@id='Email']</xpath>
+    </element>
+    
+    <element name="googleNextButton">
+        <xpath>.//*[@id='next']</xpath>
+    </element>
+    
+    <element name="googlePassword">
+        <xpath>.//*[@id='Passwd']</xpath>
+        <id>Passwd</id>
+    </element>
+
+    <element name="googleSignIn">
+        <xpath>.//*[@id='signIn']</xpath>
+    </element>
+
+    <element name="enteredEmailOnLogin">
+        <class>mdAuth_uIdentifier</class>
+    </element>
+</elements>

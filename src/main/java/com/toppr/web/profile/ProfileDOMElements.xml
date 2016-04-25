@@ -1,0 +1,39 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../resources/DOMElements.xsd">
+
+    <element name="editProfile">
+        <linkText>Edit Profle</linkText>
+    </element>
+    
+    <element name="nameField">
+        <name>name</name>
+    </element>
+
+    <element name="emailField">
+        <name>email</name>
+    </element>
+    
+    <element name="saveChangesResponse">
+        <xpath>.//*[@id='page_content_wrapper']/div[5]/div/div[2]</xpath>
+    </element>
+
+    <element name="nameErrorMessage">
+        <xpath>.//*[@id='details_form']/label[2]</xpath>
+    </element>
+
+    <element name="saveChangesButton">
+        <css>input[value=Save changes]</css>
+        <xpath>//input[@value='Save changes']</xpath>
+    </element>
+
+    <element name="saveChangeSuccessMessage">
+        <xpath>.//*[@id='page_content_wrapper']/div[4]/div/div[2]</xpath>
+    </element>
+
+    <element name="phoneNumberField">
+        <name>phone</name>
+    </element>
+
+    <element name="phoneNumberVerifyMessage">
+        <class>alert_title</class>
+    </element>
+</elements>

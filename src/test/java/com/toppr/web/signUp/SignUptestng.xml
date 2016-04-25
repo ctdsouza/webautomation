@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sign Up Test Suite" verbose="1" annotations="JDK">
+    <test name="Signup Test Suite" preserve-order="true">
+        <classes>
+            <class name="com.toppr.web.signUp.SignUpTest"/>
+        </classes>
+    </test>
+</suite>

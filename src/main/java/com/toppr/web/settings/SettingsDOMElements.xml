@@ -1,0 +1,47 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../resources/DOMElements.xsd">
+
+    <element name="nameField">
+        <name>name</name>
+    </element>
+    
+    <element name="emailField">
+        <name>email</name>
+    </element>
+    
+    <element name="phoneNumber">
+        <name>phone</name>
+    </element>
+
+    <element name="headerErrorMessage">
+        <class>alert_title-small</class>
+    </element>
+
+    <element name="nameFieldBlankError">
+        <xpath>.//*[@id='details_form']/label[2]</xpath>
+    </element>
+
+    <element name="saveButton">
+        <css>input[value=Save changes]</css>
+        <xpath>//input[@value='Save changes']</xpath>
+    </element>
+
+    <element name="classDropDown">
+        <xpath>//span[contains(@id,'select2-klass-')]</xpath>
+    </element>
+
+    <element name="class12Value">
+        <class>select2-results__option</class>
+    </element>
+    
+    <element name="streamDropDown">
+        <xpath>//span[contains(@id,'select2-stream-')]</xpath>
+    </element>
+
+    <element name="pcbValue">
+        <class>select2-results__option</class>
+    </element>
+
+    <element name="syallbusTab">
+        <linkText>SYLLABUS</linkText>
+    </element>
+</elements>

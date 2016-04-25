@@ -1,0 +1,108 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../resources/DOMElements.xsd">
+
+    <element name="header">
+        <xpath>.//*[@id='page_content_wrapper']/div[1]/div/div/h1</xpath>
+    </element>
+
+    <element name="subjectList">
+        <class>pHeader_tabs</class>
+    </element>
+
+  <!--  <element name="firstSubjectName">
+        <xpath>//div[@id='page_content_wrapper']/div/div[2]/div/nav/ul/li/a</xpath>
+    </element>
+
+    <element name="secondSubjectName">
+        <xpath>.//*[@id='page_content_wrapper']/div[1]/div[2]/div/nav/ul/li[2]/a</xpath>
+    </element>
+
+    <element name="thirdSubject">
+        <xpath>.//*[@id='page_content_wrapper']/div[1]/div[2]/div/nav/ul/li[3]/a</xpath>
+    </element>
+
+    <element name="firstSubjectNameNewUser">
+        <xpath>.//*[@id='page_content_wrapper']/div[1]/div[3]/div/nav/ul/li[1]/a</xpath>
+    </element>
+
+    <element name="secondSubjectNameNewUser">
+        <xpath>.//*[@id='page_content_wrapper']/div[1]/div[3]/div/nav/ul/li[2]/a</xpath>
+    </element>
+
+    <element name="thirdSubjectNewUser">
+        <xpath>.//*[@id='page_content_wrapper']/div[1]/div[3]/div/nav/ul/li[3]/a</xpath>
+    </element>
+
+    <element name="forthSubject">
+        <xpath>.//*[@id='page_content_wrapper']/div[1]/div[2]/div/nav/ul/li[4]/a</xpath>
+    </element>
+
+    <element name="fifthSubject">
+        <xpath>.//*[@id='page_content_wrapper']/div[1]/div[2]/div/nav/ul/li[5]/a</xpath>
+    </element>
+-->
+    <element name="setPasswordMessage">
+        <class>alert_title</class>
+    </element>
+    
+    <element name="profileIcon">
+        <xpath>//a/img</xpath>
+    </element>
+
+    <element name="settingOption">
+        <linkText>Settings</linkText>
+    </element>
+
+    <element name="logoutOption">
+        <linkText>Logout</linkText>
+    </element>
+
+    <element name="chapterNameTiles">
+        <class>pv-15</class>
+    </element>
+
+    <element name="chapterName">
+        <class>chapterTile_title</class>
+    </element>
+    
+    <element name="upgradeOption">
+        <linkText>Upgrade</linkText>
+    </element>
+
+    <element name="profileIcon">
+        <class>pTopHeader_userDropdown_thumb</class>
+    </element>
+    
+    <element name="myProfileOption">
+        <linkText>My Profile</linkText>
+    </element>
+    
+    <element name="settingOption">
+        <linkText>Settings</linkText>
+    </element>
+    
+    <element name="shareOnFacebook">
+        <xpath>.//*[@id='index-headjs-page']/body/div[8]/header/div/div[2]/ul/li[4]/a</xpath>
+        <linkText>Share on Facebook</linkText>
+    </element>
+
+    <element name="logoutOption">
+        <linkText>Logout</linkText>
+    </element>
+
+    <element name="testSeriesOnLHS">
+        <class>testSeries</class>
+    </element>
+
+    <element name="doubtsOnLHS">
+        <class>doubtsOnChat</class>
+    </element>
+
+    <element name="previousPaperOnLHS">
+        <class>previousPapers</class>
+    </element>
+
+    <element name="closeCoachMark">
+        <class>coachmarks_icon</class>
+    </element>
+
+</elements>

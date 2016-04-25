@@ -1,0 +1,7 @@
+<suite name="DOC Test Suite" verbose="1" annotations="JDK">
+    <test name="DOC screen Tests">
+        <classes>
+            <class name="com.toppr.web.settings.SettingsTest"/>
+        </classes>
+    </test>
+</suite>

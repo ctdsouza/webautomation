@@ -1,0 +1,7 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../resources/DOMElements.xsd">
+
+    <element name="firstGoalContineButton">
+        <class>allGoalsProg_btn_text</class>
+    </element>
+
+</elements>

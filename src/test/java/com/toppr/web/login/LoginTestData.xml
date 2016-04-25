@@ -1,0 +1,29 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../main/resources/TestData.xsd">
+    <testData name="validEmail">automation_iit@toppr.com</testData>
+    <testData name="validPassword">tooprqa</testData>
+    <testData name="iitFirstSubject">PHYSICS</testData>
+    <testData name="iitSecondSubject">CHEMISTRY</testData>
+    <testData name="iitThirdSubject">MATHS</testData>
+    <testData name="preMedicalLogin">automation_bio@toppr.com</testData>
+    <testData name="premedicalPassword">tooprqa</testData>
+    <testData name="preMedicalFirstSubject">PHYSICS</testData>
+    <testData name="preMedicalSecondSubject">CHEMISTRY</testData>
+    <testData name="preMedicalThirdSubject">BIOLOGY</testData>
+    <testData name="foundationLogin">automation_fund@toppr.com</testData>
+    <testData name="foundationPassword">tooprqa</testData>
+    <testData name="foundationFirstSubject">PHYSICS</testData>
+    <testData name="foundationSecondSubject">CHEMISTRY</testData>
+    <testData name="foundationThirdSubject">MATHS</testData>
+    <testData name="foundationForthSubject">BIOLOGY</testData>
+    <testData name="foundationFifthSubject">MENTAL APTITUDE</testData>
+    <testData name="noPasswordLogin">automation_user1458190840333@toppr.com</testData>
+    <testData name="setPasswordMessage">Protect your account with a password. Set password now.</testData>
+    <testData name="invalidFormatEmail">test6**142653</testData>
+    <testData name="emailError">Please enter a valid email address or phone number</testData>
+    <testData name="invalidPassword">test97353</testData>
+    <testData name="passwordError">Invalid username and password</testData>
+    <testData name="fbLoginEmail">qa.toppr@gmail.com</testData>
+    <testData name="fbLoginPassword">toppr.qa</testData>
+    <testData name="googleLoginEmail">toppr.qa@gmail.com</testData>
+    <testData name="googleLoginPassword">qa.toppr</testData>
+</data>

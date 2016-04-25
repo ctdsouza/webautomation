@@ -1,0 +1,7 @@
+<suite name="Assessment Test Suite" verbose="1" annotations="JDK">
+    <test name="Assessment Test Suite" preserve-order="true">
+        <classes>
+            <class name="com.toppr.web.assessment.AssessmentTest"/>
+        </classes>
+    </test>
+</suite>

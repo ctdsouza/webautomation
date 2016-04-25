@@ -1,0 +1,10 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../resources/DOMElements.xsd">
+
+    <element name="signUpButton">
+        <linkText>Signup</linkText>
+    </element>
+
+    <element name="loginButton">
+        <css>.button.button-small.button-grey.disable-text-select.phn-hide.-ct.-trk.-strk</css>
+    </element>
+</elements>

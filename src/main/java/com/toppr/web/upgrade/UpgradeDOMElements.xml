@@ -1,0 +1,190 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../resources/DOMElements.xsd">
+
+    <element name="packageList">
+        <class>upgrade_content_packages_banner_btn</class>
+    </element>
+
+<!--
+    <element name="advancedPackageSelect">
+        <xpath>.//*[@id='index-headjs-page']/body/div[8]/div[2]/div[1]/div[3]/div[3]/div[1]/div[5]</xpath>
+        <css>.upgrade_content_packages_banner_btn.clickable.js-btn-selectPackage.s-strk:nth-of-type(2)</css>
+    </element>
+
+    <element name="ultimatePackageSelect">
+        <xpath>.//*[@id='index-headjs-page']/body/div[8]/div[2]/div[1]/div[3]/div[5]/div[1]/div[5]</xpath>
+        <xpath>.//*[@id='index-headjs-page']/body/div[6]/div[2]/div[1]/div[3]/div[5]/div[1]/div[5]</xpath>
+    </element>
+
+    <element name="classXAndJeePackage">
+        <xpath>.//*[@id='index-headjs-page']/body/div[8]/div[2]/div[1]/div[4]/div[2]/div[1]/div[5]</xpath>
+        <xpath>.//*[@id='index-headjs-page']/body/div[6]/div[2]/div[1]/div[4]/div[2]/div[1]/div[5]</xpath>
+    </element>
+-->
+
+    <element name="paymentOptions">
+        <class>upgrade_content_payment_option</class>
+    </element>
+
+<!--
+    <element name="payOnlineOption">
+        <xpath>.//*[@id='page_content_wrapper']/div[1]/div[2]/div[1]/div/div[3]/div[3]/ul/li[1]</xpath>
+    </element>
+    
+    <element name="paytmWalletOption">
+        <xpath>.//*[@id='page_content_wrapper']/div[1]/div[2]/div[1]/div/div[3]/div[3]/ul/li[2]</xpath>
+    </element>
+    
+    <element name="payEMIOption">
+        <xpath>.//*[@id='page_content_wrapper']/div[1]/div[2]/div[1]/div/div[3]/div[3]/ul/li[3]</xpath>
+    </element>
+    
+    <element name="cashPickUpOption">
+        <xpath>.//*[@id='page_content_wrapper']/div[1]/div[2]/div[1]/div/div[3]/div[3]/ul/li[4]</xpath>
+    </element>
+-->
+
+    <element name="orderSummary">
+        <class>upgrade_sideBlock_body</class>
+    </element>
+
+    <element name="orderSummaryPackageName">
+        <class>upgrade_sideBlock_details_name</class>
+    </element>
+    
+    <element name="orderSummaryPackageValidity">
+        <class>upgrade_sideBlock_details_date</class>
+    </element>
+    
+    <element name="orderSummaryPackagePrice">
+        <class>upgrade_sideBlock_priceBlock_sellPrice</class>
+    </element>
+    
+    <element name="billingDetails">
+        <xpath>.//*[@id='details_form']/div[4]</xpath>
+    </element>
+
+    <element name="billingDetailsList">
+        <class>upgrade_content_formText</class>
+    </element>
+
+<!--
+    <element name="billingUserName">
+        <xpath>.//*[@id='student_details_form']/div[4]/div/div[2]</xpath>
+    </element>
+
+    <element name="billingUserEmail">
+        <xpath>.//*[@id='student_details_form']/div[6]/div/div[2]</xpath>
+    </element>
+    
+    <element name="billingUserPhone">
+        <xpath>.//*[@id='student_details_form']/div[8]/div/div[2]</xpath>
+    </element>
+-->
+
+    <element name="editBillingDetailsButton">
+        <class>mdBillingDetails_btn</class>
+    </element>
+
+    <element name="payButton">
+        <css>.upgrade_content_payment_block_btn.button.button-green.button-medium.js-payNow.-strk</css>
+        <class>js-payNow</class>
+    </element>
+
+    <element name="payUPageErrorMessage">
+        <xpath>.//*[@id='txndiv']</xpath>
+    </element>
+
+    <element name="proceedButton">
+        <xpath>.//*[@id='student_details_form']/input</xpath>
+    </element>
+    
+    <element name="targetYear">
+        <class>upgrade_content_selectPlanBlock_selectYear_year</class>
+    </element>
+
+    <element name="packageBanner">
+        <class>upgrade_content_packages_banner</class>
+    </element>
+
+    <element name="packageSellPrice">
+        <class>js-amt</class>
+    </element>
+    
+<!--
+    <element name="jeeLitePackageBanner">
+        <css>[class='upgrade_content_packages_banner_head'][value='LITE']</css>
+        <xpath>.//*[@id='index-headjs-page']/body/div[6]/div[2]/div[1]/div[4]/div[1]/div[1]/div[1]</xpath>
+    </element>
+    
+    <element name="jeeBasicPackageBanner">
+        <xpath>.//*[@id='index-headjs-page']/body/div[6]/div[2]/div[1]/div[4]/div[2]/div[1]/div[1]</xpath>
+    </element>
+    
+    <element name="jeeAdvancedPackageBanner">
+        <class>upgrade_content_packages_banner-complete</class>
+        <xpath>.//*[@id='index-headjs-page']/body/div[8]/div[2]/div[1]/div[3]/div[3]/div[1]</xpath>
+    </element>
+
+    <element name="jeeMasterPackageBanner">
+        <class>upgrade_content_packages_banner-video</class>
+        <xpath>.//*[@id='index-headjs-page']/body/div[8]/div[2]/div[1]/div[3]/div[4]/div[1]</xpath>
+    </element>
+
+    <element name="jeeUltimatePackageBanner">
+        <class>upgrade_content_packages_banner-ultimate</class>
+        <xpath>.//*[@id='index-headjs-page']/body/div[8]/div[2]/div[1]/div[3]/div[5]/div[1]</xpath>
+    </element>
+
+    <element name="pmtLitePackageBanner">
+        <class>upgrade_content_packages_banner_icon-testseries</class>
+
+    </element>
+
+    <element name="pmtBasicPackageBanner">
+        <class>upgrade_content_packages_banner-practice</class>
+    </element>
+
+    <element name="pmtAdvancedPackageBanner">
+        <class>upgrade_content_packages_banner-complete</class>
+        <xpath>.//*[@id='index-headjs-page']/body/div[8]/div[2]/div[1]/div[3]/div[3]/div[1]</xpath>
+    </element>
+
+    <element name="packageContentHeader">
+        <class>upgrade_content_packages_listItem_head</class>
+        <xpath>.//*[@id='index-headjs-page']/body/div[8]/div[2]/div[1]/div[3]/div[1]/ul/li[1]/div/div[2]/div[1]</xpath>
+    </element>
+    
+    <element name="packageContentDetails">
+        <class>upgrade_content_packages_listItem_details</class>
+        <xpath>.//*[@id='index-headjs-page']/body/div[8]/div[2]/div[1]/div[3]/div[1]/ul/li[1]/div/div[2]/div[2]</xpath>
+    </element>
+    
+    <element name="jeeLitePackageSellPrice">
+        <xpath>.//*[@id='index-headjs-page']/body/div[8]/div[2]/div[1]/div[3]/div[1]/div[1]/div[4]/div[2]/div</xpath>
+    </element>
+
+    <element name="jeeBasicPackageSellPrice">
+        <xpath>.//*[@id='index-headjs-page']/body/div[8]/div[2]/div[1]/div[3]/div[2]/div[1]/div[4]/div[2]/div</xpath>
+    </element>
+
+    <element name="jeeAdvancedPackageSellPrice">
+        <xpath>.//*[@id='index-headjs-page']/body/div[8]/div[2]/div[1]/div[3]/div[3]/div[1]/div[4]/div[2]/div</xpath>
+    </element>
+
+    <element name="jeeMasterPackageSellPrice">
+        <xpath>.//*[@id='index-headjs-page']/body/div[8]/div[2]/div[1]/div[3]/div[4]/div[1]/div[4]/div[2]/div</xpath>
+    </element>
+
+    <element name="jeeUltimatePackageSellPrice">
+        <xpath>.//*[@id='index-headjs-page']/body/div[8]/div[2]/div[1]/div[3]/div[5]/div[1]/div[4]/div[2]/div</xpath>
+    </element>
+-->
+
+    <element name="viewBillingDetails">
+        <class>js-blockBillingDetails</class>
+    </element>
+    
+    <element name="closeBillingDetails">
+        <class>js-md-close</class>
+    </element>
+</elements>

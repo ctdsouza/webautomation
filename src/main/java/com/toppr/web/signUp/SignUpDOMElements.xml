@@ -1,0 +1,142 @@
+<elements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../resources/DOMElements.xsd">
+
+    <element name="emailTextBox">
+        <class>mdAuth_inputGroup_input</class>
+        <name>email</name>
+    </element>
+
+    <element name="signUpButton">
+        <class>mdAuth_centerBtn</class>
+    </element>
+    
+    <element name="signUpFacebookOption">
+        <class>mdAuth_btnSocial-fb</class>
+    </element>
+
+    <element name="signUpGoogleOption">
+        <class>mdAuth_btnSocial-gp</class>
+    </element>
+
+    <element name="screenTitle">
+        <class>color-black-2</class>
+    </element>
+
+    <element name="closeOption">
+        <class>md_btnClose</class>
+    </element>
+
+    <element name="phoneNumberTextBox">
+        <class>obrd_phnScreen_input-phone</class>
+        <xpath>//div[2]/input</xpath>
+    </element>
+
+    <element name="continueThisNumber">
+        <class>js-continueWithThisNumber</class>
+    </element>
+
+    <element name="continueButton">
+        <class>obrd_phnScreen_sendOtp</class>
+    </element>
+
+    <element name="otpTextBox">
+        <class>obrd_otpScreen_input</class>
+    </element>
+
+    <element name="otpContinueButton">
+        <class>obrd_btnGetIn</class>
+    </element>
+
+    <element name="classOptionList">
+        <class>obrd_tileItem_heading</class>
+    </element>
+
+    <element name="stateOptionList">
+        <class>obrd_tileItem_heading</class>
+    </element>
+
+    <element name="streamOptionList">
+        <class>obrd_tileItem_heading</class>
+    </element>
+
+    <!--
+    <element name="classOption">
+        <xpath>.//*[@id='index-headjs-page']/body/div[2]/div/div[3]/div/div[2]/div/div[4]</xpath>
+    </element>
+
+    <element name="class11">
+        <xpath>.//*[@id='index-headjs-page']/body/div[2]/div/div[3]/div/div[2]/div/div[4]/div[2]</xpath>
+    </element>
+
+    <element name="class12">
+        <xpath>.//*[@id='index-headjs-page']/body/div[2]/div/div[3]/div/div[2]/div/div[5]/div[2]</xpath>
+    </element>
+
+    <element name="class10">
+        <xpath>.//*[@id='index-headjs-page']/body/div[2]/div/div[3]/div/div[2]/div/div[3]/div[2]</xpath>
+    </element>
+
+    <element name="streamOption">
+        <xpath>.//*[@id='index-headjs-page']/body/div[2]/div/div[5]/div/div[2]/div/div/div[1]</xpath>
+    </element>
+
+    <element name="pcmStream">
+        <xpath>.//*[@id='index-headjs-page']/body/div[2]/div/div[5]/div/div[2]/div/div/div[1]</xpath>
+    </element>
+
+    <element name="pcbStream">
+        <xpath>.//*[@id='index-headjs-page']/body/div[2]/div/div[5]/div/div[2]/div/div/div[2]</xpath>
+    </element>
+
+    <element name="cbseBoard">
+        <xpath>.//*[@id='index-headjs-page']/body/div[2]/div/div[5]/div/div[2]/div/div/div[1]</xpath>
+    </element>
+    
+    <element name="icseBoard">
+        <xpath>.//*[@id='index-headjs-page']/body/div[2]/div/div[5]/div/div[2]/div/div/div[2]</xpath>
+    </element>
+
+    <element name="stateBoard">
+        <xpath>.//*[@id='index-headjs-page']/body/div[2]/div/div[5]/div/div[2]/div/div/div[3]</xpath>
+    </element>
+
+    <element name="stateOption">
+        <xpath>.//*[@id='index-headjs-page']/body/div[2]/div/div[4]/div/div[2]/div/div[4]</xpath>
+    </element>
+    -->
+
+    <element name="confirmButton">
+        <class>js-finishOnboarding</class>
+    </element>
+
+    <element name="emailError">
+        <class>mdAuth_inputGroup_error</class>
+    </element>
+
+    <element name="fbEmail">
+        <xpath>.//*[@id='email']</xpath>
+    </element>
+
+    <element name="fbPassword">
+        <xpath>.//*[@id='pass']</xpath>
+    </element>
+
+    <element name="fbLoginButton">
+        <xpath>.//*[@id='loginbutton']</xpath>
+    </element>
+
+    <element name="googleEmail">
+        <xpath>.//*[@id='Email']</xpath>
+    </element>
+
+    <element name="googleNextButton">
+        <xpath>.//*[@id='next']</xpath>
+    </element>
+
+    <element name="googlePassword">
+        <xpath>.//*[@id='Passwd']</xpath>
+    </element>
+
+    <element name="googleSignIn">
+        <xpath>.//*[@id='signIn']</xpath>
+    </element>
+</elements>

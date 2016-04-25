@@ -1,0 +1,40 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../main/resources/TestData.xsd">
+
+    <testData name="validEmail">automation_iit@toppr.com</testData>
+    <testData name="validPassword">tooprqa</testData>
+    <testData name="iitFirstSubject">PHYSICS</testData>
+    <testData name="iitSecondSubject">CHEMISTRY</testData>
+    <testData name="iitThirdSubject">MATHS</testData>
+    <testData name="bioFirstSubject">PHYSICS</testData>
+    <testData name="bioSecondSubject">CHEMISTRY</testData>
+    <testData name="bioThirdSubject">BIOLOGY</testData>
+    <testData name="updatedName">updated</testData>
+    <testData name="iitTestYear">2017</testData>
+    <testData name="emailText">automation_user</testData>
+    <testData name="phoneNumber">7506431660</testData>
+    <testData name="setPasswordMessage">Protect your account with a password. Set password now.</testData>
+    <testData name="unlockUserLogin">2016jeefullpackage@toppr.com</testData>
+    <testData name="unlockUserPassword">toppr@1947</testData>
+    <testData name="iitFirstSubject">PHYSICS</testData>
+    <testData name="iitSecondSubject">CHEMISTRY</testData>
+    <testData name="iitThirdSubject">MATHS</testData>
+    <testData name="foundationLogin">automation_fund@toppr.com</testData>
+    <testData name="foundationPassword">tooprqa</testData>
+    <testData name="foundationFirstSubject">PHYSICS</testData>
+    <testData name="foundationSecondSubject">CHEMISTRY</testData>
+    <testData name="foundationThirdSubject">MATHS</testData>
+    <testData name="foundationForthSubject">BIOLOGY</testData>
+    <testData name="foundationFifthSubject">MENTAL APTITUDE</testData>
+    <testData name="foundationTestYear">2016</testData>
+    <testData name="iit2016UserEmail">automation_iit_2016@toppr.com</testData>
+    <testData name="iit2016UserPassword">tooprqa</testData>
+    <testData name="iit2016TestYear">2016</testData>
+    <testData name="bio2017UserEmail">automation_bio@toppr.com</testData>
+    <testData name="bio2017UserPassword">tooprqa</testData>
+    <testData name="bio2017TestYear">2017</testData>
+    <testData name="bio2016UserEmail">automation_bio_2016@toppr.com</testData>
+    <testData name="bio2016UserPassword">tooprqa</testData>
+    <testData name="bio2016TestYear">2016</testData>
+    <testData name="profileName">Automation User</testData>
+
+</data>

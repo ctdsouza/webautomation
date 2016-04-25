@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testseries Test Suite" verbose="1" annotations="JDK" preserve-order="true">
+    <test name="Testseries screen Tests">
+        <classes>
+            <class name="com.toppr.web.testSeries.TestSeriesTest"/>
+        </classes>
+    </test>
+</suite>
